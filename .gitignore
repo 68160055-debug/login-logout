@@ -5,3 +5,17 @@
 .vscode/
 .idea/
 config/db.local.php
+# Secret and local configuration
+.env
+.env.*
+!.env.example
+config/db.local.php
+
+# Local credentials and keys
+*.pem
+*.key
+
+# Operating system and editor
+.DS_Store
+.vscode/
+.idea/
